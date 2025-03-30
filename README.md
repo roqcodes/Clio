@@ -8,9 +8,8 @@ Generate CLI commands from natural language using AI. Powered by DeepSeek-V3.
 - Supports Git, Docker, Node.js, Linux, Windows, and more.
 
 ## Usage
-1. Open Command Palette (`Ctrl+Shift+P`).
-2. Run `Clio: Run CLI Command`.
-3. Enter your query.
+1. Open Terminal
+2. Run `Clio create an expo app`.
 4. Execute or cancel the suggested commands.
 
 ## Requirements
