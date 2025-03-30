@@ -1,0 +1,32 @@
+{
+    "name": "clio",
+    "displayName": "Clio - AI CLI Assistant",
+    "description": "Generate CLI commands from natural language with AI",
+    "version": "0.0.1",
+    "publisher": "your-publisher-name",
+    "engines": {
+      "vscode": "^1.98.0"  
+    },
+    "categories": ["Other", "Programming Languages"],
+    "activationEvents": ["onCommand:clio.runCommand"],
+    "main": "./src/extension.js",
+    "contributes": {
+      "commands": [
+        {
+          "command": "clio.runCommand",
+          "title": "Clio: Run CLI Command"
+        }
+      ]
+    },
+    "scripts": {
+      "vscode:prepublish": "npm install"
+    },
+    "dependencies": {
+      "child_process": "latest"
+    },
+    "devDependencies": {
+      "@types/vscode": "^1.98.0",
+      "@types/node": "^20.11.5"
+    },
+    "icon": "icon.png"
+  }

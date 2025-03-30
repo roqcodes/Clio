@@ -1,0 +1,9 @@
+*.ps1
+*.bat
+rules.json
+test_aicli.py
+package-lock.json
+.git
+.gitignore
+*.pyc
+__pycache__
